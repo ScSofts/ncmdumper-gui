@@ -1,0 +1,15 @@
+[package]
+name = "ncmdump-gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.12.1" , features = ["default", "svg"]}
+tokio = { version = "1.39.2", features = ["default", "rt", "rt-multi-thread", "macros", "sync", "fs"] }
+tokio-macros = "2.4.0"
+ncmdump = { version = "0.7.3", features = ["ncmdump"] }
+rfd = { version = "0.14.1", features = ["default"] }
+native-dialog = "0.7.0"
+metaflac = "0.2.7"
+anyhow = "1.0.86"
+id3 = { version = "1.14.0", features = ["default"] }

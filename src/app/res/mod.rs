@@ -1,0 +1,1 @@
+pub(crate) const FOLDER_ICON: &[u8] = include_bytes!("./folder.svg");
